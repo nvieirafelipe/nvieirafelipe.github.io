@@ -1,0 +1,16 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+/* Developer */
+
+Developer:      Felipe Nunes Vieira
+Contact:        nvieirafelipe@gmail.com
+Twitter:        @felipenv
+Location:       Campinas - Sao Paulo, Brasil.
+
+Site name (Nome do site):           nvieirafelipe
+Language (Idioma):                  Portugues BR
+Last update (Ultima atualizaçao):   2013/09/17
+Components:                         Foundation 4.3
+
+Software: Sublime Text (Mac OS X), Git

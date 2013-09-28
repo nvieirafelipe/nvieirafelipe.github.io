@@ -1,0 +1,57 @@
+a {
+  color: #5F7FA8;
+}
+
+a:hover {
+  color: #303030;
+}
+
+.label {
+  background-color: #99B4F1;
+}
+
+ul#contact {
+  list-style: none;
+  margin: 10px;
+}
+
+ul#contact li {
+  width: 300px;
+  display: block;
+  float: left;
+}
+
+ul#contact li h1 a {
+  margin: 10px;
+  vertical-align: middle;
+}
+
+ul#contact li a i {
+  display: inline-block;
+  font-size: 32px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.top-bar, .top-bar.expanded .title-area, .top-bar-section ul {
+  background: #f2f2f2;
+}
+
+.top-bar {
+  border-left: solid 1px #d9d9d9;
+  border-right: solid 1px #d9d9d9;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.top-bar li.name {
+  border-top: solid 1px #d9d9d9;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.top-bar-section .divider, .top-bar-section [role="separator"] {
+  border-color: #f2f2f2;
+}
+
+.top-bar a, .top-bar .name h1 a {
+  color: #000;
+}

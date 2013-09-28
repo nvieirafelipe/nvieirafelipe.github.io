@@ -1,0 +1,3 @@
+a { text-decoration: none; }
+.show-on-print { display: block !important; }
+#contact a:after { content: '' !important; }
