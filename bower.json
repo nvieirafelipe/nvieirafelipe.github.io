@@ -1,0 +1,25 @@
+{
+  "name": "nvieirafelipe",
+  "version": "0.0.0",
+  "authors": [
+    "Felipe Vieira <nvieirafelipe@gmail.com>"
+  ],
+  "description": "Felipe Nunes Vieira",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "~5.5.2",
+    "foundation-icon-fonts": "*"
+  },
+  "dependencies": {
+    "chartist": "~0.8.0",
+    "Chart.js": "~1.0.2"
+  }
+}
