@@ -1,0 +1,18 @@
+<li class="column {{ post.list_classes }}">
+  <article class="post">
+    <p class="small-12 date">
+      <i class="fi-calendar">{{ post.date | date_to_string }}</i>
+    </p>
+    <a href="{{ post.url }}">
+      <img style="background-image: url('/assets/images/posts/{{ post.cover }}');" />
+    </a>
+    <h2>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <p>{{ post.preview }}</p>
+    <hr />
+    {% for category in post.categories %}
+      <span class="radius label yellow">{{ category }}</span>
+    {% endfor %}
+  </article>
+</li>
