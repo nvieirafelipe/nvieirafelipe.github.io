@@ -1,0 +1,19 @@
+name: Blog
+highlighter: rouge
+markdown: kramdown
+sass:
+    style: :compressed
+    sass_dir: assets/stylesheets
+
+gem:
+  - jekyll-babel
+
+# Build settings
+exclude: [
+  'Gemfile*',
+  'README.md',
+  'bower.json',
+  'assets/stylesheets/mixins',
+  'about/*',
+  'index/*'
+]

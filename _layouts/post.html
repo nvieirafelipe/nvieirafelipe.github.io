@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="post row article-bg">
+  <a href="{{ post.url  }}">
+    <img style="background-image: url('/assets/images/posts/{{ page.cover  }}');"/>
+  </a>
+  <p class="date">
+    <i class="gen-enclosed fi-calendar"></i>
+    {{ page.date | date_to_string }}
+  </p>
+  <h2>{{ page.title }}</h2>
+  <div class="post">
+    {{ content }}
+  </div>
+</article>
