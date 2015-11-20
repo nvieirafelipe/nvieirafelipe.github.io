@@ -14,12 +14,9 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "foundation": "~5.5.2",
-    "foundation-icon-fonts": "*"
-  },
   "dependencies": {
-    "chartist": "~0.8.0",
-    "Chart.js": "~1.0.2"
+    "foundation-sites": "~6.0.1",
+    "Chart.js": "~1.0.2",
+    "foundation-icon-fonts": "*"
   }
 }
