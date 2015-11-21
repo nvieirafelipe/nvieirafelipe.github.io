@@ -1,10 +1,28 @@
 $header-gradient: linear-gradient(rgba(0, 0, 0, 0.75), rgba(9, 113, 178, 0.25))
+$transition: background-image 3s ease-in-out
 header
-  height: 420px
-  padding: 20px
-  background: $header-gradient, url("../images/backgrounds/bg-01.jpg")
+  transition: $transition
+  -webkit-transition: $transition
+  -moz-transition: $transition
+  -ms-transition: $transition
+  -o-transition: $transition
+
+  background-image: url("../images/backgrounds/bg-01.jpg")
   background-position: center
+  background-repeat: no-repeat
+
   background-size: cover
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -ms-background-size: cover
+  -o-background-size: cover
+
+  height: 420px
+
+  .overlay
+    background-image: $header-gradient
+    height: 100%
+    padding: 20px
 
   .top-header
     position: absolute

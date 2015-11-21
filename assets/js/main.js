@@ -1,5 +1,6 @@
 ---
 ---
+{% include_relative header.js %}
 {% include_relative xp-data.js %}
 
 var buildChart = (context, data) => {
