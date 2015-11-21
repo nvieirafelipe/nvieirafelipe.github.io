@@ -1,0 +1,38 @@
+$header-gradient: linear-gradient(rgba(0, 0, 0, 0.75), rgba(9, 113, 178, 0.25))
+header
+  height: 420px
+  padding: 20px
+  background: $header-gradient, url("../images/backgrounds/bg-01.jpg")
+  background-position: center
+  background-size: cover
+
+  .top-header
+    position: absolute
+    top: 0px
+    right: 0px
+    width: 214px
+    height: auto
+
+    a
+      display: inline-block
+      margin: 8px
+      vertical-align: top
+      text-align: center
+
+      .nvieirafelipe
+        height: 32px
+
+      .icons
+        color: white
+        font-size: 2em
+
+  blockquote
+    p
+      font-family: serif
+      font-size: 1.46rem
+      color: white
+
+  @media screen and (max-width: 399px)
+    blockquote
+      p
+        font-size: 1.1rem

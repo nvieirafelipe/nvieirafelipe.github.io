@@ -1,0 +1,39 @@
+.college, .code
+  display: inline-block
+  width: 46px
+  height: 46px
+  margin-left: -2px
+  vertical-align: middle
+
+.college
+  background: url('../images/college.png') no-repeat
+  background-position: center
+  background-size: contain
+
+.code
+  background: url('../images/code.png') no-repeat
+  background-position: center
+  background-size: contain
+
+@media screen and (min-width: 1025px)
+  .code:before, .college:before
+    border: 1px solid $dark-blue
+    content: ''
+    display: inline-block
+    position: relative
+    z-index: -1
+
+  .code:before
+    top: 33px
+    left: 22px
+    height: 754px
+
+  .college:before
+    top: 35px
+    left: 22px
+    height: 670px
+
+@media screen and (max-width: 1025px)
+  .timeline
+    text-align: center
+    margin: 5px 0 15px

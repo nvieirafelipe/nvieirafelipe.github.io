@@ -1,0 +1,30 @@
+---
+---
+
+@import mixins/colors
+@import mixins/sizes
+
+@import mixins/header
+@import mixins/stick_footer
+@import mixins/menu
+@import mixins/posts
+@import mixins/about
+@import mixins/timeline
+
+.home
+  background-color: white
+  padding: 10px 20px
+
+*[class*='fi-']
+  vertical-align: middle
+  margin-right: 10px
+  &:hover
+    color: $dark-red
+
+.row
+  max-width: 100rem
+
+@media only screen and (min-width: 40.0625em)
+  h2
+    font-size: 2.2rem
+
