@@ -4,13 +4,20 @@
 </h2>
 <div class='row'>
   <div class='large-1 columns timeline first-year hide-for-print'>
+    <span class='label'>2015</span>
+  </div>
+  {% assign codeminer = site.data.xp['codeminer42'] %}
+  {% include_relative about/xp-item.html params=codeminer class_names="large-11" %}
+</div>
+<div class='row'>
+  <div class='large-1 columns timeline second-year hide-for-print'>
     <span class='label'>2014</span>
   </div>
   {% assign everywhere = site.data.xp['everywhere'] %}
   {% include_relative about/xp-item.html params=everywhere class_names="large-11" %}
 </div>
 <div class='row'>
-  <div class='large-1 columns timeline second-year hide-for-print'>
+  <div class='large-1 columns timeline hide-for-print'>
     <span class='label'>2013</span>
   </div>
   {% assign pinuts = site.data.xp['pinuts'] %}

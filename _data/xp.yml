@@ -1,10 +1,29 @@
+codeminer42:
+  name: Codeminer42
+  href:  http://www.codeminer42.com
+  job_title: Desenvolvedor
+  period: desde 15/07/2014
+  description: Desenvolvimento de aplicações web e consultor na Locaweb.
+  keywords:
+    - Git
+    - Ruby
+    - Rails
+    - Rspec
+    - Capybara
+    - PostgreSQL
+    - Javascript
+    - BackboneJS
+    - EmberJS
+    - QUnit
+
 everywhere:
   name: Everywhere
   href: http://www.everywhere.com.br
   job_title: Desenvolvedor
-  period: desde 05/01/2014
+  period: 05/01/2014 a 15/07/2014
   description: Desenvolvimento de aplicativos móveis com HTML5 e JS, desenvolvimento de aplicações web e APIs.
   keywords:
+    - Git
     - Cordova (PhoneGap)
     - Angular JS
     - PHP
