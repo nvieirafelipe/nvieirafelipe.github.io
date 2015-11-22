@@ -1,0 +1,73 @@
+everywhere:
+  name: Everywhere
+  href: http://www.everywhere.com.br
+  job_title: Desenvolvedor
+  period: desde 05/01/2014
+  description: Desenvolvimento de aplicativos móveis com HTML5 e JS, desenvolvimento de aplicações web e APIs.
+  keywords:
+    - Cordova (PhoneGap)
+    - Angular JS
+    - PHP
+    - Slim Framework
+    - PHP Unit
+    - Ruby
+    - Rails
+    - Rspec
+    - Cucumber
+pinuts:
+  name: Pinuts Studios
+  href: http://www.pinutsstudios.com.br
+  job_title: Desenvolvedor
+  period: 15/10/2011 a 15/12/2013
+  description: Desenvolvimento de aplicativos móveis com HTML5 e JS, desenvolvimento de aplicações web e APIs.
+  keywords:
+    - Git
+    - Ruby
+    - Rails
+    - Sinatra
+    - Grape
+    - Rspec
+    - Cucumber
+    - PostgreSQL
+    - Objective-C
+    - iOS
+    - Cocoapods
+    - Kiwi
+    - Java
+    - Android
+    - BDD
+    - TDD
+    - Pair programming
+medic:
+  name: Medic Agenda
+  href: http://www.medic-agenda.herokuapp.com.br
+  job_title: Freela
+  period: 10/07/2011 a 20/10/2013
+  description: Análise e desenvolvimento de plataforma para agendamento de consultas online.
+  keywords:
+    - Git
+    - Ruby
+    - Rails 3.2
+    - PostgreSQL
+    - Heroku
+    - AWS
+    - Javascript
+    - jQuery
+    - Google Maps API
+    - HTML + CSS
+fecamp:
+  name: FECAMP
+  href: http://www.fecamp.org.br
+  job_title: Estagiário + Freela
+  period: 10/01/2011 a 17/12/2013
+  description: Análise e desenvolvimento de aplicação web para apoio à pesquisa de atualização da nova base de cálculo de ITBI da Prefeitura de Campinas.
+  keywords:
+    - Git
+    - PHP
+    - MySQL
+    - Symfony 1.4
+    - Javascript
+    - jQuery
+    - Google Maps API
+    - Google Visualization API
+    - HTML + CSS

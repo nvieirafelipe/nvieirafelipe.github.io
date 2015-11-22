@@ -6,18 +6,23 @@
   <div class='large-1 columns timeline first-year hide-for-print'>
     <span class='label'>2014</span>
   </div>
-  {% include_relative about/xp/everywhere.html %}
+  {% assign everywhere = site.data.xp['everywhere'] %}
+  {% include_relative about/xp-item.html params=everywhere class_names="large-11" %}
 </div>
 <div class='row'>
   <div class='large-1 columns timeline second-year hide-for-print'>
     <span class='label'>2013</span>
   </div>
-  {% include_relative about/xp/pinuts.html %}
-  {% include_relative about/xp/medic.html %}
+  {% assign pinuts = site.data.xp['pinuts'] %}
+  {% include_relative about/xp-item.html params=pinuts class_names="large-6" %}
+
+  {% assign medic = site.data.xp['medic'] %}
+  {% include_relative about/xp-item.html params=medic class_names="large-5" %}
 </div>
 <div class='row'>
   <div class='large-1 columns timeline third-year hide-for-print'>
     <span class='label'>2012</span>
   </div>
-  {% include_relative about/xp/fecamp.html %}
+  {% assign fecamp = site.data.xp['fecamp'] %}
+  {% include_relative about/xp-item.html params=fecamp class_names="large-11" %}
 </div>
