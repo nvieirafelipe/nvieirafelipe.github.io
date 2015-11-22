@@ -42,6 +42,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-babel
+  kramdown
   rouge
 
 BUNDLED WITH
