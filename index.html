@@ -10,4 +10,7 @@ title: Felipe Vieira
       {% include_relative index/post.html %}
     {% endfor %}
   </ol>
+  {% unless site.posts.any? %}
+    <p class="not-there-yet">Parece que não há nada aqui ainda</p>
+  {% endunless %}
 </div>
