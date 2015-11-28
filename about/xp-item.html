@@ -6,11 +6,8 @@
       </dt>
       <dd>
         <strong itemprop='jobTitle'>{{ include.params.job_title }}</strong>
-        <br>
-        {{ include.params.period }}
-        <br>
-        {{ include.params.description }}
-        <hr>
+        <p>{{ include.params.period }}</p>
+        <p>{{ include.params.description }}</p>
         <div class="text-center">
           {% for keyword in include.params.keywords %}
             <span class='label'>{{ keyword }}</span>
