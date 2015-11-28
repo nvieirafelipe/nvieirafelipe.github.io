@@ -3,14 +3,14 @@
 {% include_relative header.js %}
 {% include_relative xp-data.js %}
 
-var buildChart = (context, data) => {
+var buildChart = function(context, data) {
   var options = {
     responsive: true,
     scaleShowLabels: false,
     segmentStrokeWidth: 1,
     tooltipTemplate: "<%= label %>"
   }
-  new Chart(context).PolarArea(data, options)
+  new Chart(context).PolarArea(data, options);
 }
 
 var languageChart = $("#language-chart").get(0);
