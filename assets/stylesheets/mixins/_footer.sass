@@ -1,0 +1,31 @@
+$footer-height: 100px
+
+html, body
+  height: 100%
+
+body
+  background-color: #F1F1F1
+
+.wrapper
+  min-height: 100%
+  margin-bottom: -$footer-height
+
+.wrapper:after
+  content: ""
+  display: block
+  height: $footer-height
+
+.footer
+  height: $footer-height
+  font-size: $font-small
+  text-align: right
+
+.footer > .row
+  background-color: $blue
+  color: white
+  padding: 10px 20px
+  height: $footer-height
+
+.jekyll
+  height: 32px
+
