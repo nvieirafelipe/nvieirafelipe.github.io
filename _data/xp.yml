@@ -1,95 +1,112 @@
-codeminer42:
-  name: Codeminer42
-  href:  http://www.codeminer42.com
-  job_title: Desenvolvedor
-  period: desde 15/07/2014 a 12/08/2016
-  description: Desenvolvimento de aplicações web e consultor na Locaweb.
-  keywords:
-    - Git
-    - Ruby
-    - Rails
-    - Rspec
-    - Capybara
-    - PostgreSQL
-    - Javascript
-    - BackboneJS
-    - EmberJS
-    - QUnit
+-
+  year: 2015
+  items:
+    -
+      name: Codeminer42
+      href:  http://www.codeminer42.com
+      job_title: Desenvolvedor
+      period: desde 15/07/2014 a 12/08/2016
+      description: Desenvolvimento de aplicações web e consultor na Locaweb.
+      class_names: large-6
+      keywords:
+        - Git
+        - Ruby
+        - Rails
+        - Rspec
+        - Capybara
+        - PostgreSQL
+        - Javascript
+        - BackboneJS
+        - EmberJS
+        - QUnit
 
-everywhere:
-  name: Everywhere
-  href: http://www.everywhere.com.br
-  job_title: Desenvolvedor
-  period: 05/01/2014 a 15/07/2014
-  description: Desenvolvimento de aplicativos móveis com HTML5 e JS, desenvolvimento de aplicações web e APIs.
-  keywords:
-    - Git
-    - Cordova (PhoneGap)
-    - Angular JS
-    - PHP
-    - Slim Framework
-    - PHP Unit
-    - Ruby
-    - Rails
-    - Rspec
-    - Cucumber
+-
+  year: 2014
+  items:
+    -
+      name: Everywhere
+      href: http://www.everywhere.com.br
+      job_title: Desenvolvedor
+      period: 05/01/2014 a 15/07/2014
+      description: Desenvolvimento de aplicativos móveis com HTML5 e JS, desenvolvimento de aplicações web e APIs.
+      class_names: large-11
+      keywords:
+        - Git
+        - Cordova (PhoneGap)
+        - Angular JS
+        - PHP
+        - Slim Framework
+        - PHP Unit
+        - Ruby
+        - Rails
+        - Rspec
+        - Cucumber
 
-pinuts:
-  name: Pinuts Studios
-  href: http://www.pinutsstudios.com.br
-  job_title: Desenvolvedor
-  period: 15/10/2011 a 15/12/2013
-  description: Desenvolvimento de aplicações para plataformas iOS e Android, desenvolvimento de RESTful web APIs.
-  keywords:
-    - Git
-    - Ruby
-    - Rails
-    - Sinatra
-    - Grape
-    - Rspec
-    - Cucumber
-    - PostgreSQL
-    - Objective-C
-    - iOS
-    - Cocoapods
-    - Kiwi
-    - Java
-    - Android
-    - BDD
-    - TDD
-    - Pair programming
+-
+  year: 2013
+  items:
+    -
+      name: Pinuts Studios
+      href: http://www.pinutsstudios.com.br
+      job_title: Desenvolvedor
+      period: 15/10/2011 a 15/12/2013
+      description: Desenvolvimento de aplicações para plataformas iOS e Android, desenvolvimento de RESTful web APIs.
+      class_names: large-6
+      keywords:
+        - Git
+        - Ruby
+        - Rails
+        - Sinatra
+        - Grape
+        - Rspec
+        - Cucumber
+        - PostgreSQL
+        - Objective-C
+        - iOS
+        - Cocoapods
+        - Kiwi
+        - Java
+        - Android
+        - BDD
+        - TDD
+        - Pair programming
 
-medic:
-  name: Medic Agenda
-  href: http://www.medic-agenda.herokuapp.com.br
-  job_title: Freela
-  period: 10/07/2011 a 20/10/2013
-  description: Análise e desenvolvimento de plataforma para agendamento de consultas online.
-  keywords:
-    - Git
-    - Ruby
-    - Rails 3.2
-    - PostgreSQL
-    - Heroku
-    - AWS
-    - Javascript
-    - jQuery
-    - Google Maps API
-    - HTML + CSS
+    -
+      name: Medic Agenda
+      href: http://www.medic-agenda.herokuapp.com.br
+      job_title: Freela
+      period: 10/07/2011 a 20/10/2013
+      description: Análise e desenvolvimento de plataforma para agendamento de consultas online.
+      class_names: large-5
+      keywords:
+        - Git
+        - Ruby
+        - Rails 3.2
+        - PostgreSQL
+        - Heroku
+        - AWS
+        - Javascript
+        - jQuery
+        - Google Maps API
+        - HTML + CSS
 
-fecamp:
-  name: FECAMP
-  href: http://www.fecamp.org.br
-  job_title: Estagiário + Freela
-  period: 10/01/2011 a 17/12/2013
-  description: Análise e desenvolvimento de aplicação web para apoio à pesquisa de atualização da nova base de cálculo de ITBI da Prefeitura de Campinas.
-  keywords:
-    - Git
-    - PHP
-    - MySQL
-    - Symfony 1.4
-    - Javascript
-    - jQuery
-    - Google Maps API
-    - Google Visualization API
-    - HTML + CSS
+-
+  year: 2012
+  items:
+    -
+      name: FECAMP
+      href: http://www.fecamp.org.br
+      job_title: Estagiário + Freela
+      period: 10/01/2011 a 17/12/2013
+      description: Análise e desenvolvimento de aplicação web para apoio à pesquisa de atualização da nova base de cálculo de ITBI da Prefeitura de Campinas.
+      class_names: large-11
+      keywords:
+        - Git
+        - PHP
+        - MySQL
+        - Symfony 1.4
+        - Javascript
+        - jQuery
+        - Google Maps API
+        - Google Visualization API
+        - HTML + CSS

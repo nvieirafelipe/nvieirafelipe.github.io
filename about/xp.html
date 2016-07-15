@@ -2,34 +2,14 @@
   <span class='code hide-for-print'></span>
   Experiência Profissional
 </h2>
-<div class='row'>
-  <div class='large-1 columns timeline first-year hide-for-print'>
-    <span class='label'>2015</span>
-  </div>
-  {% assign codeminer = site.data.xp['codeminer42'] %}
-  {% include_relative about/xp-item.html params=codeminer class_names="large-6" %}
-</div>
-<div class='row'>
-  <div class='large-1 columns timeline second-year hide-for-print'>
-    <span class='label'>2014</span>
-  </div>
-  {% assign everywhere = site.data.xp['everywhere'] %}
-  {% include_relative about/xp-item.html params=everywhere class_names="large-11" %}
-</div>
-<div class='row'>
-  <div class='large-1 columns timeline hide-for-print'>
-    <span class='label'>2013</span>
-  </div>
-  {% assign pinuts = site.data.xp['pinuts'] %}
-  {% include_relative about/xp-item.html params=pinuts class_names="large-6" %}
+{% for xp in site.data.xp %}
+  <div class='row'>
+    <div class='large-1 columns timeline hide-for-print'>
+      <span class='label'>{{ xp.year }}</span>
+    </div>
 
-  {% assign medic = site.data.xp['medic'] %}
-  {% include_relative about/xp-item.html params=medic class_names="large-5" %}
-</div>
-<div class='row'>
-  <div class='large-1 columns timeline third-year hide-for-print'>
-    <span class='label'>2012</span>
+    {% for item in xp.items %}
+      {% include_relative about/xp-item.html params=item %}
+    {% endfor %}
   </div>
-  {% assign fecamp = site.data.xp['fecamp'] %}
-  {% include_relative about/xp-item.html params=fecamp class_names="large-11" %}
-</div>
+{% endfor %}
