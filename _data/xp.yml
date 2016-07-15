@@ -2,7 +2,7 @@ codeminer42:
   name: Codeminer42
   href:  http://www.codeminer42.com
   job_title: Desenvolvedor
-  period: desde 15/07/2014
+  period: desde 15/07/2014 a 12/08/2016
   description: Desenvolvimento de aplicações web e consultor na Locaweb.
   keywords:
     - Git
@@ -33,6 +33,7 @@ everywhere:
     - Rails
     - Rspec
     - Cucumber
+
 pinuts:
   name: Pinuts Studios
   href: http://www.pinutsstudios.com.br
@@ -57,6 +58,7 @@ pinuts:
     - BDD
     - TDD
     - Pair programming
+
 medic:
   name: Medic Agenda
   href: http://www.medic-agenda.herokuapp.com.br
@@ -74,6 +76,7 @@ medic:
     - jQuery
     - Google Maps API
     - HTML + CSS
+
 fecamp:
   name: FECAMP
   href: http://www.fecamp.org.br
