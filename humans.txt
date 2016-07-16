@@ -12,6 +12,6 @@ Location:       Campinas - São Paulo, Brasil.
 Site name (Nome do site):           nvieirafelipe
 Language (Idioma):                  Portugues BR
 Last update (Ultima atualização):   2016/07/15
-Components:                         Jekyll, Babel, Chart.js, Foundation 6
+Components:                         Jekyll, Chart.js, Foundation 6
 
 Software: Vim, Git

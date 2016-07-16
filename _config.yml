@@ -6,6 +6,3 @@ exclude: [ 'Gemfile*', 'README.md', 'bower.json' ]
 sass:
   style: :compressed
   sass_dir: assets/stylesheets
-
-gem:
-  - jekyll-babel

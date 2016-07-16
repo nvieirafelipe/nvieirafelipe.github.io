@@ -1,25 +1,19 @@
 ---
 ---
-{% include_relative header.js %}
-{% include_relative xp-data.js %}
+{% include_relative background.js %}
+{% include_relative xp.js %}
+{% include_relative sticky.js %}
 
-var buildChart = function(context, data) {
-  var options = {
-    responsive: true,
-    scaleShowLabels: false,
-    segmentStrokeWidth: 1,
-    tooltipTemplate: "<%= label %>"
-  }
-  new Chart(context).PolarArea(data, options);
-}
+$(document).ready(() => {
+  Background.start();
 
-var languageChart = $("#language-chart").get(0);
-var frameworkChart = $("#frameworks-chart").get(0);
+  XP.languageChart($('#language-chart').get(0));
+  XP.frameworksChart($('#frameworks-chart').get(0));
 
-if (languageChart) {
-  buildChart(languageChart.getContext("2d"), languageData);
-}
-
-if (frameworkChart) {
-  buildChart(frameworkChart.getContext("2d"), frameworksData);
-}
+  var sticky = $('[sticky]');
+  var timeline = $('.timeline');
+  var spacer = $('.who-spacer');
+  $(window).on('scroll resize', function(e) {
+    Sticky.update(sticky, timeline, spacer);
+  });
+});
