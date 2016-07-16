@@ -4,7 +4,7 @@
 {% include_relative xp.js %}
 {% include_relative sticky.js %}
 
-$(document).ready(() => {
+$(document).ready(function() {
   Background.start();
 
   XP.languageChart($('#language-chart').get(0));
