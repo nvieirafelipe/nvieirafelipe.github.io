@@ -19,10 +19,11 @@
     background-position: center
     background-size: contain
 
-  @media screen and (min-width: 1025px)
-    .xp, .academic
-      height: 250px
+  .label.hide-for-print
+    float: left
+    margin-left: 12px
 
+  @media screen and (min-width: 1024px)
     .code:before, .college:before
       border: 1px solid $dark-blue
       content: ''
@@ -40,7 +41,16 @@
       left: 22px
       height: 40.5rem
 
-  @media screen and (max-width: 1025px)
+  @media screen and (max-width: 1023px)
+    .xp, .academic
+      width: 100%
+
     .timeline
       text-align: center
       margin: 5px 0 15px
+
+    .label.hide-for-print
+      display: block
+      float: none
+      margin: 0 auto
+      width: 45px

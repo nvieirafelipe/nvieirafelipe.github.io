@@ -7,7 +7,7 @@
       job_title: Desenvolvedor
       period: desde 15/07/2014 a 12/08/2016
       description: Desenvolvimento de aplicações web e consultor na Locaweb.
-      class_names: large-6
+      class_names: medium-5
       keywords:
         - Git
         - Ruby
@@ -29,7 +29,7 @@
       job_title: Desenvolvedor
       period: 05/01/2014 a 15/07/2014
       description: Desenvolvimento de aplicativos móveis com HTML5 e JS, desenvolvimento de aplicações web e APIs.
-      class_names: large-11
+      class_names: medium-10
       keywords:
         - Git
         - Cordova (PhoneGap)
@@ -51,7 +51,7 @@
       job_title: Desenvolvedor
       period: 15/10/2011 a 15/12/2013
       description: Desenvolvimento de aplicações para plataformas iOS e Android, desenvolvimento de RESTful web APIs.
-      class_names: large-6
+      class_names: medium-5
       keywords:
         - Git
         - Ruby
@@ -77,7 +77,7 @@
       job_title: Freela
       period: 10/07/2011 a 20/10/2013
       description: Análise e desenvolvimento de plataforma para agendamento de consultas online.
-      class_names: large-5
+      class_names: medium-5
       keywords:
         - Git
         - Ruby
@@ -99,7 +99,7 @@
       job_title: Estagiário + Freela
       period: 10/01/2011 a 17/12/2013
       description: Análise e desenvolvimento de aplicação web para apoio à pesquisa de atualização da nova base de cálculo de ITBI da Prefeitura de Campinas.
-      class_names: large-11
+      class_names: medium-10
       keywords:
         - Git
         - PHP

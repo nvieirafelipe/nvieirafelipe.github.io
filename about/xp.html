@@ -4,9 +4,7 @@
 </h2>
 {% for xp in site.data.xp %}
   <div class='row'>
-    <div class='large-1 columns timeline hide-for-print'>
-      <span class='label'>{{ xp.year }}</span>
-    </div>
+    <span class='label hide-for-print'>{{ xp.year }}</span>
 
     {% for item in xp.items %}
       {% include_relative about/xp-item.html params=item %}
