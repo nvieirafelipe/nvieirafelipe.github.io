@@ -3,13 +3,23 @@ layout: default
 title: Felipe Vieira
 ---
 
-<div class="row small-up-1 medium-up-2 large-up-3 home">
-  <ol class="posts">
-    {% for post in site.posts %}
-      {% include_relative index/post.html %}
-    {% endfor %}
-  </ol>
-  {% unless site.posts.any? %}
-    <p class="not-there-yet">Parece que não há nada aqui ainda</p>
-  {% endunless %}
+{% include_relative about/who.html %}
+<div class='row about'>
+  <div class='column small-12 medium-8'>
+    {% include_relative about/xp.html %}
+    <hr />
+    {% include_relative about/academic.html %}
+  </div>
+  <div class='column small-12 medium-4 hide-for-print'>
+    <h2 class='bigger'>Linguagens</h2>
+    <canvas class='chart' id='language-chart'></canvas>
+  </div>
+  <div class='column small-12 medium-4 hide-for-print'>
+    <h2 class='bigger'>Frameworks</h2>
+    <canvas class='chart' id='frameworks-chart'></canvas>
+  </div>
+  <div class='cloumn small-12 medium-4 columns'>
+    <h2 class='bigger'>Idiomas</h2>
+    <p>Inglês intermediário.</p>
+  </div>
 </div>
