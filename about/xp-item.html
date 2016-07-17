@@ -1,11 +1,15 @@
-<div class='columns {{ include.params.class_names }} xp'>
+<div class='columns {{ include.params.class_names }} xp'
   <div class='panel'>
     <dl>
-      <dt>
-        <a href='{{ include.params.href }}'>{{ include.params.name }}</a>
+      <dt itemprop='worksFor' itemscope itemtype='http://schema.org/Organization'>
+        <a href='{{ include.params.href }}' itemprop='name'>
+          {{ include.params.name }}
+        </a>
       </dt>
       <dd>
-        <strong itemprop='jobTitle'>{{ include.params.job_title }}</strong>
+        <strong itemprop='jobTitle'>
+          {{ include.params.job_title }}
+        </strong>
         <p>{{ include.params.period }}</p>
         <p>{{ include.params.description }}</p>
         <div class="text-center">
