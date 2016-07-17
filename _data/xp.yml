@@ -10,15 +10,18 @@
       class_names: medium-5
       keywords:
         - Git
+        - Elixir
+        - Phoenix
         - Ruby
         - Rails
         - Rspec
         - Capybara
-        - PostgreSQL
         - Javascript
-        - BackboneJS
         - EmberJS
+        - BackboneJS
         - QUnit
+        - PostgreSQL
+        - RabbitMQ
 
 -
   year: 2014

@@ -3,10 +3,16 @@ var XP = (function(module) {
   {% include_relative xp/frameworks.js %}
 
   const OPTIONS = {
-    responsive: true,
-    scaleShowLabels: false,
-    segmentStrokeWidth: 1,
-    tooltipTemplate: "<%= label %>"
+    legend: { display: false },
+    scale: { ticks: { min: 0, display: false } },
+    elements: { arc: { borderWidth: 1 } },
+    tooltips: {
+      callbacks: {
+        label: function(item, data) {
+          return data.labels[item.index];
+        }
+      }
+    }
   }
 
   module.languageChart = function(element) {
@@ -18,7 +24,26 @@ var XP = (function(module) {
   };
 
   function buildChart(element, data) {
-    return new Chart(element).PolarArea(data, OPTIONS);
+    var chart = new Chart(element, {
+      type: 'polarArea',
+      data: buildData(data),
+      options: OPTIONS
+    });
+    return chart;
+  };
+
+  function buildData(data) {
+    var chartData = {
+      datasets: [
+        {
+          data: data.map(function(item) { return item.value; }),
+          backgroundColor: data.map(function(item) { return item.color; }),
+        }
+      ],
+      labels: data.map(function(item) { return item.label; })
+    }
+
+    return chartData;
   };
 
   return module;

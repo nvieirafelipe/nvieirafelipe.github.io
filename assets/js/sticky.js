@@ -1,12 +1,14 @@
 var Sticky = (function(module) {
   module.update = function(sticky, timeline, spacer) {
     if(exceedsThreshold(spacer)) {
-      sticky.addClass('sticky');
       sticky.css('left', leftPosition(timeline));
+      sticky.css('width', sticky.outerWidth());
+      sticky.addClass('sticky');
     }
     else {
       sticky.removeClass('sticky');
       sticky.css('left', '');
+      sticky.css('width', '');
     }
   };
 

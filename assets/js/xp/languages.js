@@ -1,32 +1,8 @@
 var languages = [
-  {
-      label: "Ruby: 5 anos, 11 projetos",
-      value: 35,
-      color:"#DC0012",
-      highlight: "#FC5751",
-  },
-  {
-      label: "Objective-C: 1 ano, 5 projetos",
-      value: 20,
-      color: "#435A75",
-      highlight: "#647282",
-  },
-  {
-      label: "JS: 5 anos, 9 projetos",
-      value: 20,
-      color: "#FDB45C",
-      highlight: "#FFCD8F",
-  },
-  {
-      label: "PHP: 2 anos, 3 projetos",
-      value: 15,
-      color: "#98A0CB",
-      highlight: "#CED0D9",
-  },
-  {
-      label: "Java: 3 meses, 1 projeto",
-      value: 10,
-      color: "#FF5300",
-      highlight: "#FF7733",
-  }
+  { label: "Ruby: 5 anos",       value: 10, color: "#DC0012" },
+  { label: "JS: 5 anos",         value: 9.5, color: "#FDB45C" },
+  { label: "PHP: 2 anos",        value: 8.5, color: "#98A0CB" },
+  { label: "Objective-C: 1 ano", value: 8.5, color: "#435A75" },
+  { label: "Elixir: 6 meses",    value: 7, color: "#9768d1" },
+  { label: "Java: 3 meses",      value: 6.5, color: "#FF5300" },
 ];
