@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    container_name: 'nvieirafelipe_web'
+    command: bundle exec jekyll serve -H 0.0.0.0 --watch --drafts
+    build: .
+    ports:
+      - '4000:4000'
+    volumes:
+      - .:/opt/nvieirafelipe
+    stdin_open: true
+    tty: true

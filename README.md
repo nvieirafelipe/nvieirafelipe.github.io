@@ -1,5 +1,19 @@
 # Felipe Vieira
 
+## Setup with Docker
+
+```sh
+docker-compose build
+docker-compose run --rm web bundle install
+docker-compose run --rm web bower install --allow-root
+```
+
+## Run with Docker
+
+```sh
+docker-compose up
+```
+
 ## Credits
 
 *Favicon __Programmer__ designed by __Hadi Davodpour__
