@@ -1,10 +1,8 @@
-$footer-height: 100px
-
 html, body
   height: 100%
 
 body
-  background-color: #F1F1F1
+  background-color: $white-smoke
 
 .wrapper
   min-height: 100%
@@ -21,12 +19,15 @@ body
   text-align: right
 
 .footer > .row
-  background-color: white
+  background-color: $white
   box-shadow: 0 1px 5px $gray
   color: $gray
   padding: 10px 20px
   height: $footer-height
 
+.sticky
+  position: fixed
+  top: 0
+
 .jekyll
   height: 32px
-

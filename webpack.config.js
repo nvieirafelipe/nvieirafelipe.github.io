@@ -1,5 +1,6 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const TerserPlugin = require('terser-webpack-plugin')
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 module.exports = {
@@ -62,7 +63,10 @@ module.exports = {
   ],
   optimization: {
     minimize: true,
-    minimizer: [new OptimizeCssAssetsPlugin({})]
+    minimizer: [
+      new TerserPlugin({}),
+      new OptimizeCssAssetsPlugin({})
+    ]
   },
   output: {
     path: path.resolve('assets/js/'),

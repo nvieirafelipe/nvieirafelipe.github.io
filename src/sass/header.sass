@@ -8,7 +8,6 @@ $transition: background-image 3s ease-in-out
   -ms-transition: $transition
   -o-transition: $transition
 
-  background-image: url("../images/backgrounds/bg-01.jpg")
   background-position: center
   background-repeat: no-repeat
 
@@ -25,6 +24,10 @@ $transition: background-image 3s ease-in-out
     right: 0px
     width: 214px
     height: auto
+
+  @for $i from 1 through 5
+    &.bg-0#{$i}
+      background-image: url('~images/bg-0#{$i}.jpg')
 
 .header-links
   .header-link

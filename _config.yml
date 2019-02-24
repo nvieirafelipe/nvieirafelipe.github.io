@@ -2,7 +2,14 @@ name: Felipe Vieira
 email: nvieirafelipe@gmail.com
 
 # Build settings
-exclude: [ 'bower.json', 'Gemfile*', 'README.md', 'vendor' ]
-sass:
-  style: :compressed
-  sass_dir: assets/stylesheets
+exclude:
+  - bower.json
+  - Dockerfile
+  - docker-compose
+  - package*.json
+  - Gemfile*
+  - node_modules
+  - README.md
+  - src
+  - vendor
+  - webpack.config.js
