@@ -5,7 +5,7 @@
 ```sh
 docker-compose build
 docker-compose run --rm web bundle install
-docker-compose run --rm web bower install --allow-root
+docker-compose run --rm webpack npm install
 ```
 
 ## Run with Docker

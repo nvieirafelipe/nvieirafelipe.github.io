@@ -4,3 +4,6 @@ _site
 
 /vendor/*
 !/vendor/.gitkeep
+
+/node_modules/*
+!/node_modules/.gitkeep

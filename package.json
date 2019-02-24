@@ -1,0 +1,38 @@
+{
+  "name": "nvieirafelipe",
+  "version": "0.0.0",
+  "description": "Felipe Vieira",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvieirafelipe/nvieirafelipe.github.io.git"
+  },
+  "author": "Felipe Vieira <nvieirafelipe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvieirafelipe/nvieirafelipe.github.io/issues"
+  },
+  "homepage": "http://nvieirafelipe.github.io",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "chart.js": "^2.7.3",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "foundation-icon-fonts": "^0.1.1",
+    "foundation-sites": "^6.5.3",
+    "jquery": "^3.3.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}

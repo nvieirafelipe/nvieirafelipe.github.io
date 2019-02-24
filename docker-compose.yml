@@ -10,3 +10,12 @@ services:
       - .:/opt/nvieirafelipe
     stdin_open: true
     tty: true
+
+  webpack:
+    container_name: 'nvieirafelipe_webpack'
+    build: .
+    command: npm run-script serve
+    volumes:
+      - .:/opt/nvieirafelipe
+    depends_on:
+      - web

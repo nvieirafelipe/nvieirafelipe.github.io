@@ -23,5 +23,3 @@ ENV BUNDLE_PATH vendor/bundle
 
 RUN mkdir -p $APP_PATH
 WORKDIR $APP_PATH
-
-COPY Gemfile Gemfile.lock bower.json $APP_PATH/
